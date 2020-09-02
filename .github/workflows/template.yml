@@ -11,7 +11,7 @@ jobs:
       - name: Black Code Formatter
         uses: lgeiger/black-action@master
         with:
-          args: ". --check" 
+          args: ". --check --diff --color" 
         
   build:
 
